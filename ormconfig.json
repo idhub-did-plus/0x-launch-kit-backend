@@ -1,8 +1,14 @@
+
 {
-    "type": "sqlite",
-    "database": "db/database.sqlite",
+
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "byq2218283",
+    "database": "relaybase",
     "synchronize": true,
-    "logging": true,
+    "logging": false,
     "entities": ["ts/lib/entity/**/*.js", "js/entity/**/*.js"],
     "cli": {
         "entitiesDir": "ts/lib/entity"
